@@ -1,0 +1,21 @@
+<?php
+// Enable detailed errors in development mode
+const APP_DEBUG = true;
+
+// Base URL (used for links/redirects)
+const APP_BASE_URL = 'http://localhost/taskboard'; // поменяй под себя
+
+// MySQL connection settings
+const DB_HOST = 'localhost';
+const DB_NAME = 'taskboard';
+const DB_USER = 'taskboard_user';
+const DB_PASS = 'your_password';
+const DB_CHARSET = 'utf8mb4';
+
+// Table names
+const DB_TABLE_USERS     = 'users';
+const DB_TABLE_AUDIT_LOG = 'audit_log';
+const DB_TABLE_TASKS     = 'tasks';
+
+// Session name
+const SESSION_NAME = 'taskboard_session';
