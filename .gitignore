@@ -6,7 +6,7 @@ Thumbs.db
 .DS_Store
 
 # Ignore DB dumps
-*.sql
+*data.sql
 
 # Ignore IDE configs
 .idea/
